@@ -1,0 +1,3 @@
+# TrafficSigns
+
+This code trains a convolutional neural network (CNN) on the German Traffic Sign Recognition Benchmark (GTSRB) dataset, which contains images of 43 different traffic signs. It imports necessary libraries, defines empty lists for storing image data and labels, sets the path to the folder containing the training data, iterates over all the class folders in the training dataset, and adds the image data and label to their respective lists. It splits the training dataset into training and testing datasets, converts the labels into one-hot encoding vectors, defines the model architecture, compiles the model, trains the model, and saves the trained model as a h5 file. The code is well-commented and organized, making it easy to understand and modify.
